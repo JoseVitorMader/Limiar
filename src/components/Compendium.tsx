@@ -43,10 +43,12 @@ export const Compendium: React.FC = () => {
   const [newWeapon, setNewWeapon] = useState<Partial<Weapon>>({
     name: '',
     category: 'uma_mao',
+    weaponProficiency: 'simples',
     damageDice: '1d8',
     damageType: 'cortante',
     range: 'Adjacente',
     spaces: 1,
+    requisitionType: 'II',
     properties: ['uma_mao'],
     magCapacity: undefined,
     contagionCostPerScene: 0,
